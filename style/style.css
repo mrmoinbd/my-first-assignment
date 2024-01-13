@@ -154,3 +154,137 @@ body {
   cursor: pointer;
   margin-top: 10x;
 }
+
+/* join now sectio style */
+.joinnow {
+  width: 100%;
+  height: 482px;
+  background: linear-gradient(180deg,
+      rgba(255, 0, 0, 0.1) 0%,
+      rgba(255, 0, 0, 0) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.joinnow span {
+  color: red;
+  margin-right: 10px;
+}
+
+.joinnow p {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+
+.joinnow button {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #f00;
+  color: #fff;
+  border: none;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* comming soon section style */
+.commingsoon {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px;
+}
+
+.commingsoon .div1 h5 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.commingsoon .div1 h3 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  margin: 8px 0px;
+}
+
+.commingsoon .div1 p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.commingsoon .div2 {
+  width: 250px;
+  height: 250px;
+  border: 8px solid red;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.commingsoon .div2 img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  padding: 20px;
+}
+
+.commingsoon .div3 h4 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 2px;
+  margin-bottom: 8px;
+}
+
+.commingsoon .div3 p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+.commingsoon .div3 img {
+  width: 140px;
+  height: 140px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
