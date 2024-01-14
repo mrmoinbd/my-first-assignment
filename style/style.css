@@ -8,7 +8,7 @@
 body {
   font-family: "Merriweather", serif;
   font-family: 'Inter', sans-serif;
-  font-family: 'Lato', sans-serif;
+
 }
 
 .container {
@@ -309,7 +309,7 @@ body {
 .holidays-description .title {
   color: #070211;
   font-family: Inter;
-  font-size: 15px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -452,3 +452,113 @@ body {
 }
 
 /* subscribe sections style */
+.Subscribe-newsletter {
+  width: 100%;
+  height: 516px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Subscribe-newsletter-description {
+  max-width: 700px;
+}
+
+.Subscribe-newsletter-description img {
+  max-width: 100%;
+  height: auto;
+}
+
+.Subscribe-newsletter-description h2 {
+  margin: 5px 0px;
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.Subscribe-newsletter-description p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.Subscribe-newsletter-description .subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+
+.Subscribe-newsletter-description .subscribe input {
+  padding: 16px 16px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  border: none;
+  width: 300px;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.Subscribe-newsletter-description .subscribe button {
+  padding: 16px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 0px 20px 20px 0px;
+  background: red;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Footer section style */
+.footer {
+  background: #070211;
+  width 100%;
+  height: auto;
+  color: #fff;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0px;
+}
+
+.footer-text p {
+  display: flex;
+  align-items: center;
+  line-height: 24px;
+
+}
+
+.footer-social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-social-icon img {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0px;
+}
