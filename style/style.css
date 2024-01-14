@@ -288,3 +288,167 @@ body {
   background-repeat: no-repeat;
   object-fit: cover;
 }
+
+/* holiday section style */
+.holidays {
+  margin-top: 80px;
+  margin-bottom: 200px;
+}
+
+.holidays-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+
+  text-align: center;
+  margin: auto;
+}
+
+.holidays-description .title {
+  color: #070211;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+
+.holidays-description .subtitle span {
+  color: red;
+}
+
+.holidays-description .subtitle {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+
+.holidays-description p {
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.holidaysimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  position: relative;
+}
+
+.img1,
+.img2 {
+  flex: 1;
+  text-align: center;
+}
+
+.img1 img,
+.img2 img {
+  width: 429px;
+  height: 433px;
+  object-fit: cover;
+}
+
+.img1 {
+  margin-left: 121px;
+  margin-top: 142px;
+  z-index: 999;
+}
+
+.img2 {
+  margin-left: 280px;
+  position: relative;
+}
+
+.discountimg {
+  position: absolute;
+  top: 125px;
+  left: -70px;
+  width: 150px;
+  height: 150px;
+}
+
+.discountimg img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  object-fit: cover;
+}
+
+
+.bottomimg {
+  width: 100%;
+  height: 150px;
+  background-color: red;
+  border-radius: 16px 0px 16px 16px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 433px;
+  z-index: 5px;
+}
+
+/* awesome portfolio section style */
+
+.ourportfolio {
+  margin-bottom: 50px;
+}
+
+.portfolio-description {
+  width: 600px;
+}
+
+.portfolio-description h5 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.portfolio-description h3 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin: 6px 0px;
+}
+
+.portfolio-description p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.ourportfolio-img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.ourportfolio-img img {
+  width: 424px;
+  height: 450px;
+  object-fit: cover;
+}
+
+/* subscribe sections style */
